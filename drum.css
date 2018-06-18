@@ -1,0 +1,32 @@
+body {
+    height: 97vh;
+    display: flex;
+    text-align: center;
+    background-image: url(big_concert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.keys {
+    margin-top: 250px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.key {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    width: 90px;
+    height: 80px;
+    border: 1px solid;
+    font-size: 50px;
+    margin: 20px;
+    transition: all 0.07s;
+}
+
+.playing {
+    border: 2px solid;
+    border-color: yellow;
+    transform: scale(1.1);
+}
