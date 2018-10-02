@@ -16,10 +16,10 @@ body {
 .key {
     color: white;
     text-align: center;
-    padding-top: 40px;
-    width: 90px;
-    height: 80px;
-    border: 1px solid;
+    padding-top: 45px;
+    width: 91px;
+    height: 81px;
+    border: 2px solid;
     font-size: 50px;
     margin: 20px;
     transition: all 0.07s;
